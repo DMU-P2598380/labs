@@ -1,0 +1,31 @@
+body {
+background-color: BurlyWood
+}
+h1 {
+background-color: white; font-size: 90px; text-align: center;
+}
+img {width: 25%}
+p {
+border: 5px solid black
+}
+p {
+  background-color: white
+}
+p {
+  font-size: 20px
+}
+h2 {
+  font-size: 30px; text-align: center;
+}
+h3 {
+  font-size: 30px; text-align: center;
+}
+ul {
+border: 5px solid black
+}
+ul {
+  background-color: white
+}
+h4 {
+  font-size: 30px; text-align: center;
+}

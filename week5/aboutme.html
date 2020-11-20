@@ -8,10 +8,43 @@
   </head>
   <body>
 <h1>About Me</h1>
+
+    <!-- ***
+         The <center> element has been deprecated. If you want to centre things, you should use css instead.
+
+         To centre an image, you should put it in a full-width element, like a <div>, and then set the text-align
+         property of that container element to center. For example:
+
+          <div style="text-align: center">
+            <img src="image/myphoto.jpg" alt="myphoto">
+          </div>
+          *** -->
+    
 <center><img src="image/myphoto.jpg" alt="myphoto"></center>
 <p>Hi! My name is Martyna Szwałek. I am 19 and come from Poland. I have a younger brother - Igor. My passion is horse riding and drawing. I came to this course by accident because I have never had any contact with any of the skills that I am learning now. However, it was my best decision in life because the first time "learning" gives me pleasure.</p>
 <!--I love dogs.-->
 <h2>My Favourite Place in the World</h2>
+    
+<!-- ***
+     Centring videos is trickier. To be honest, it's a bit of a hack that images respond to text-align. 
+
+     Anyhow, to centre a video, or most other elements actually, you need to set the left and right margins to a value of 'auto'.
+
+     This will make them automatically expand by the same amount, resulting in the element being held in the centre. For example:
+
+     <video style="margin-left: auto; margin-right: auto" controls width="30%">
+        <source src="vid/video.mp4" type="video/mp4" />
+        <source src="vid/video.ogv type="video/ogg" />
+        <source src="vid/video.webm" type="video/webm" />
+        <p>Fallback</p>
+     </video>
+
+     You might have noticed there that I didn't put controls="true". If you are setting an attribute to true, simply 
+     including its name does the job.
+
+     One last thing - On the middle <source> element, you've got src="vid/video.ogv. You've forgotten to put a closing " after the .ogv.
+     *** -->
+
 <center><video controls="true"; width="30%">
   <source src="vid/video.mp4" type="video/mp4" />
   <source src="vid/video.ogv type="video/ogg" />
@@ -31,3 +64,11 @@
 </p>
   </body>
 </html>
+                                                                                        
+<!-- ***
+     I think you've got a little confusion over the headings <h1> to <h6>.
+     The number isn't meant to keep increasing as you go down the page - it doesn't denote the order. 
+     The number represents the relative importance of the heading. Your main heading "About Me" is a <h1>, which
+     is great as it's the main heading. All other headings are sub-headings, all equally imporance, so they 
+     should all be <h2> elements. 
+     *** -->

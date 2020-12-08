@@ -1,0 +1,120 @@
+
+/* Background done with gradient and option for browsers that do not support gradients */
+
+body {
+    height: 200px;
+    background-color: black;
+    background-image: radial-gradient(grey, black);
+  }
+
+  /* Photo adjusted to the page size thanks to "width" and border which I used on the whole page */
+
+.title {
+      width: 100%;
+      border: 10px ridge #B22222;
+      border-radius: 7px;
+      background-color: black;
+      box-sizing: border-box;
+  }
+
+  /* Navigation buttons needed to be separated so I added them to the separate class
+  and used different elements to give them a special look */
+
+  .button {
+    float: left;
+    width: 45%;
+    text-align: center;
+    background-color: black;
+    padding: 5px;
+    transition-duration: 0.2s;
+    box-sizing: border-box;
+    margin: 2%;
+    border: 10px ridge #B22222;
+    border-radius: 7px;
+    font-family: 'Cinzel', serif;
+}
+
+  /* Adding specjal color for a element */
+
+a {
+  color: #B22222;
+}
+
+/* I added a div element to css because of that I want to each of my div elements could look the same because
+ I used a lot of them on the site */
+
+div {
+  float: left;
+  text-align: center;
+  background-color: black;
+  padding: 5px;
+  width: 94%;
+  margin: 2%;
+  border: 10px ridge #B22222;
+  border-radius: 7px;
+  box-sizing: border-box;
+  font-family: 'Cinzel', serif;
+}
+
+ /* Adding settings like color and font to h2 and h3 */
+
+h2 {
+  color: #B22222;
+  font-family: 'Cinzel', serif;
+}
+h3 {
+  color: #B22222;
+  font-family: 'Cinzel', serif;
+  font-size: 25px;
+}
+
+ /* Added float left and center to photo class and h4 so that the photos are next to the text */
+
+.photo {
+    float: left;
+    width: 20%;
+    margin: 1%;
+}
+h4 {
+  float: center;
+  color: white;
+  font-family: 'Cinzel', serif;
+}
+p {
+  color: white;
+  font-family: 'Cinzel', serif;
+}
+b {
+  color: #B22222;
+}
+video {
+  margin: 2%;
+  width: 94%;
+  border: 10px ridge #B22222;
+  box-sizing: border-box;
+  border-radius: 7px;
+}
+audio {
+  margin: 2%;
+  width: 94%;
+  border: 10px ridge #B22222;
+  box-sizing: border-box;
+  border-radius: 7px;
+}
+
+ /* I have figured out a lot to make the fotter look exactly as I want but I supported the website w3school.com
+ */
+
+fotter {
+  width: 94%;
+  border: 10px ridge #B22222;
+  box-sizing: border-box;
+  display: inline-flex;
+  margin: 2%;
+  padding: 10px;
+  border-radius: 7px;
+  text-align: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+}
